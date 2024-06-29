@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad&display=swap");
+
+* {
+  font-family: "Afacad", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: darkgrey;
+  text-align: center;
+  color: wheat;
+  padding: 30px 0;
+  font-size: 30px;
+}
+
+.kontainerAll {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 16px;
+}
+.kontainer {
+  border: 1px solid black;
+  display: flex;
+
+  flex-direction: column;
+  margin: 10px;
+  padding: 20px;
+  gap: 30px;
+  width: 100%;
+  background-color: thistle;
+}
+
+.kontainer > h3 {
+  text-align: center;
+  border-bottom: 1px solid silver;
+  font-size: 40px;
+  border-width: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.form-check {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+}
+
+.form-check label {
+  color: #005b8f;
+  font-weight: bolder;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: red;
+}
+
+button {
+  padding: 20px;
+  display: flex;
+}
+
+label {
+  font-size: 20px;
+}
